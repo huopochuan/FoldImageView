@@ -81,7 +81,7 @@ public class FoldImageVeiw extends ImageView {
     	super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     	height = this.getMeasuredHeight();
 		width = this.getMeasuredWidth();
-		System.out.print("height"+height+"width"+width);
+		//System.out.print("height"+height+"width"+width);
     }
 	public void SetBitmap(List<Bitmap> mbitmaps) {
 		this.mbitmaps =mbitmaps;
